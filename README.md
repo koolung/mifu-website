@@ -1,4 +1,10 @@
-![check out my linked in]
+![check out my linkedin]
+
+
+
+---
+![check out the published website]
+https://koolung.github.io/mifu-website/
 
 ---
 
