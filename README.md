@@ -1,5 +1,4 @@
 ![check out my linked in]
-# One page Portfolio Website (HTML CSS Project)
 
 ---
 
