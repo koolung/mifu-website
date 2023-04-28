@@ -235,7 +235,7 @@ p {
 	z-index: 1;
 }
 
-/* Front slogan font*/
+/* Front slogan font and background opacity*/
 #hero::after {
 	content: '';
 	position: absolute;
@@ -244,10 +244,10 @@ p {
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: 0.3;
+	opacity: 0.5;
 	z-index: -1;
 }
-/*end Front slogan font*/
+/*end Front slogan font and background opacity*/
 
 #hero .hero {
 	max-width: 1200px;
@@ -718,6 +718,12 @@ p {
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
+
+	/* Front slogan font and background opacity*/
+	#hero::after {
+		opacity: 0.4;
+	}
+	/*end Front slogan font and background opacity*/
 
 	/* paragraph shortening */
 	p {
