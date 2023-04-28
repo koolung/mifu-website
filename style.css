@@ -29,8 +29,11 @@ img {
 }
 
 .logo {
-	width: 60%;
+	width: 100px;
+	margin: 5%;
+	margin-left: 12%;
 }
+
 .bottom-logo{
 	width: 45%;
 }
@@ -163,8 +166,10 @@ p {
 	height: 60px;
 	width: 60px;
 	display: inline-block;
+	/* circle border removed
 	border: 3px solid white;
 	border-radius: 50%;
+	*/
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -174,6 +179,9 @@ p {
 	transform: scale(0.8);
 	margin-right: 20px;
 }
+
+/*circle animation*/
+/*getting rid of the circle animation
 #header .hamburger:after {
 	position: absolute;
 	content: '';
@@ -183,6 +191,9 @@ p {
 	border: 3px solid white;
 	animation: hamburger_puls 1s ease infinite;
 }
+*/
+/*end circle animation*/
+
 #header .hamburger .bar {
 	height: 2px;
 	width: 30px;
@@ -223,6 +234,8 @@ p {
 	position: relative;
 	z-index: 1;
 }
+
+/* Front slogan font*/
 #hero::after {
 	content: '';
 	position: absolute;
@@ -234,6 +247,8 @@ p {
 	opacity: 0.5;
 	z-index: -1;
 }
+/*end Front slogan font*/
+
 #hero .hero {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -243,7 +258,7 @@ p {
 #hero h1 {
 	display: block;
 	width: fit-content;
-	font-size: 4rem;
+	font-size: 3rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal 0.5s ease forwards;
@@ -512,7 +527,8 @@ p {
 
 /* Footer */
 #footer {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	/*background-image: linear-gradient(60deg, rgb(60,60,60) 0%, #485563 40%);*/
+	background: rgb(50,50,50);
 }
 #footer .footer {
 	min-height: 200px;
