@@ -229,8 +229,8 @@ p {
 /* Hero Section */
 #hero {
 	background-image: url(./img/hero1.jpg);
+	background-position: 80%;
 	background-size: cover;
-	background-position: top center;
 	position: relative;
 	z-index: 1;
 }
@@ -599,8 +599,11 @@ p {
 }
 /* End Keyframes */
 
+
+
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
+	
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
@@ -610,6 +613,15 @@ p {
 	}
 
 	/* Hero */
+
+	#hero {
+		background-image: url(./img/hero1.jpg);
+		background-size: cover;
+		background-position: top center;
+		position: relative;
+		z-index: 1;
+	}
+
 	#hero h1 {
 		font-size: 7rem;
 	}
@@ -720,6 +732,16 @@ p {
 		margin-left: 25%;
 	}
 	/* End logo resizing */
+
+	/* Hero background setting */
+	#hero {
+		background-image: url(./img/hero1.jpg);
+		background-size: cover;
+		background-position: top center;
+		position: relative;
+		z-index: 1;
+	}
+	/* End Hero background setting */
 
 	/* header */
 	#header .hamburger {
