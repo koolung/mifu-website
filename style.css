@@ -712,6 +712,14 @@ p {
 		margin-left: 0;
 		margin-right: 0;
 	}
+	/* end paragraph shortening */
+
+	/* Logo resize for the bigger screen*/
+	.logo {
+		width: 60%;
+		margin-left: 25%;
+	}
+	/* End logo resizing */
 
 	/* header */
 	#header .hamburger {
