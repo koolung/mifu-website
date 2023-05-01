@@ -510,6 +510,16 @@ p {
 /* End Services Section */
 
 /* Projects section */
+#project li{
+	color: white;
+	font-size: 5rem;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: 0.05rem;
+}
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -923,6 +933,9 @@ p {
 		animation-delay: 0.4s;
 		visibility: hidden;
 		transition: transform 0.5s;
+	}
+	#gallery h5{
+		padding-top: 5%;
 	}
 	/* Eng Gallery for PC version
 
