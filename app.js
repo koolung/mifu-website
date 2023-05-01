@@ -24,3 +24,8 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+$(".").click(function() {
+	window.location = $(this).find("a").attr("href"); 
+	return false;
+  });
