@@ -340,8 +340,7 @@ p {
 #gallery .col {
 	flex-basis: 80%;
 	margin-top: 20%;
-	margin-bottom: 15%
-
+	margin-bottom: 15%;
 }
 #gallery .card {
 	width: 150px;
@@ -764,6 +763,8 @@ p {
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
+
+	
 	
 	.cta {
 		font-size: 2.5rem;
@@ -891,7 +892,7 @@ p {
 	#gallery .row {
 		min-height: 80vh;
 		width: fit-content;
-		display: flex;
+		display: grid;
 		align-items: center;
 		justify-content: center;
 		margin: 0 auto;
@@ -899,12 +900,15 @@ p {
 	}
 	#gallery .col {
 		flex-basis: 50%;
-		width: 100%;
+		width: 70%;
 		position: initial;
 		display: block;
 		height: auto;
 		width: fit-content;
-	
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-top: 5%;
+		margin-bottom: 5%;
 	}
 	#gallery .card {
 		width: 200px;
@@ -924,7 +928,7 @@ p {
 
 	/* Front slogan font and background opacity*/
 	#hero::after {
-		opacity: 0.4;
+		opacity: 0.5;
 	}
 	/*end Front slogan font and background opacity*/
 
