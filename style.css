@@ -30,17 +30,14 @@ img {
 	width: 100%;
 	object-fit: cover;
 }
-
 .logo {
 	width: 100px;
 	margin: 5%;
 	margin-left: 12%;
 }
-
 .bottom-logo{
 	width: 45%;
 }
-
 p {
 	margin-left: 5%;
 	margin-right: 5%;
@@ -106,12 +103,13 @@ p {
 /* non-transparent header */
 #header .noheader {
 	min-height: 8vh;
-	background-color: rgb(41, 50, 60);
+	background-color: rgb(155,154,155);
+	transition: 0.3s ease background-color;
 }
 /* End non-transparent header */
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-color: transparent;
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -304,6 +302,136 @@ p {
 }
 
 /* End Hero Section */
+
+/* Gallery Section */
+#gallery {
+	background-image: url(../Photo/1_1Zebra/1_1_1/1_1_1_1.jpg);
+	background-position: 90%;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+
+/* Front slogan font and background opacity*/
+#gallery::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -1;
+}
+/*end Front slogan font and background opacity*/
+
+#gallery .row {
+	min-height: 80vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+}
+#gallery .col {
+	flex-basis: 50%;
+
+}
+#gallery .card {
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	animation: fadeIn 1s ease forwards;
+	animation-delay: 0.4s;
+	visibility: hidden;
+	transition: transform 0.5s;
+}
+#gallery .card:hover{
+	transform: translateY(-10px);
+
+}
+#gallery .card1 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../Photo/1_1Zebra/1_1_2/1_1_2_4.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#gallery .card2 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../Photo/1_2RollarRoman/1_2_7/1_2_7_2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#gallery .card3 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../Photo/1_3Shangri-la/1_3_2/1_3_2_1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#gallery .card4 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../Photo/1_4WoodAluminum/1_4_2/1_4_2_5.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#gallery .card4 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../Photo/1_5Honeycomb/1_5_1/1_5_1_1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#gallery .card4 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../Photo/1_6BlackoutShades/1_6_1/1_6_1_1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#gallery .gallery {
+	max-width: 2500px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+#gallery h1 {
+	display: block;
+	width: fit-content;
+	font-size: 6rem;
+	position: relative;
+	color: transparent;
+	animation: text_reveal 0.5s ease forwards;
+	animation-delay: 0.4s;
+}
+#gallery h1 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: rgb(0, 70, 111);
+	animation: text_reveal_box 1s ease;
+	animation-delay: 0.5s;
+}
+#gallery h5 {
+	text-align: center;
+	color: white;
+	display: block;
+	width: fit-content;
+	font-size: 2rem;
+	position: relative;
+	animation-delay: 3s;
+}
+#gallery p{
+	color: white;
+	font-size: 12pt;
+}
+/* End Gallery Section */
 
 /* Services Section */
 #services .services {
@@ -576,6 +704,15 @@ p {
 /* End Footer */
 
 /* Keyframes */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	  }
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+  }
 @keyframes hamburger_puls {
 	0% {
 		opacity: 1;
@@ -727,6 +864,36 @@ p {
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
+
+	/* Gallery for PC version */
+	#gallery .row {
+		min-height: 80vh;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+		width: 90%;
+	}
+	#gallery .col {
+		flex-basis: 50%;
+	
+	}
+	#gallery .card {
+		width: 200px;
+		height: 230px;
+		display: inline-block;
+		border-radius: 10px;
+		padding: 15px 25px;
+		box-sizing: border-box;
+		cursor: pointer;
+		margin: 10px 15px;
+		animation: fadeIn 1s ease forwards;
+		animation-delay: 0.4s;
+		visibility: hidden;
+		transition: transform 0.5s;
+	}
+	/* Eng Gallery for PC version */
 
 	/* Front slogan font and background opacity*/
 	#hero::after {
