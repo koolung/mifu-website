@@ -602,12 +602,17 @@ p {
 /* End Projects section */
 
 /* About Section */
+
+#about .container{
+	min-height: 70vh;
+}
+
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 100px 20px;
+	padding: 0px 20px;
 }
 #about .col-left {
 	width: 250px;
@@ -637,6 +642,8 @@ p {
 	position: relative;
 	border: 10px solid white;
 }
+/* The boxy frame around the photo refer to line 856 as well */
+/*
 #about .col-left .about-img::after {
 	content: '';
 	position: absolute;
@@ -647,6 +654,8 @@ p {
 	border: 7px solid rgb(0, 70, 111);
 	z-index: -1;
 }
+*/
+/* End The boxy frame around the photo refer to line 856 as well */
 /* End About Section */
 
 /* contact Section */
@@ -841,10 +850,13 @@ p {
 		flex-direction: row;
 	}
 	#about .col-left {
-		width: 600px;
-		height: 400px;
+		width: 1000px;
+		height: 430px;
 		padding-left: 60px;
+		margin-bottom: 40px;
 	}
+	/* The boxy frame around the photo refer to line 645 as well */
+	/*
 	#about .about .col-left .about-img::after {
 		left: -45px;
 		top: 34px;
@@ -852,6 +864,8 @@ p {
 		width: 98%;
 		border: 10px solid rgb(0, 70, 111);
 	}
+	*/
+	/* EndThe body fram around the photo */
 	#about .col-right {
 		text-align: left;
 		padding: 30px;
