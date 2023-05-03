@@ -50,7 +50,7 @@ p {
 	letter-spacing: 0.05rem;
 }
 .section-title {
-	font-size: 4rem;
+	font-size: 27pt;
 	font-weight: 300;
 	color: black;
 	margin-bottom: 10px;
@@ -340,6 +340,7 @@ p {
     width: 100%;
 }
 #gallery .col {
+	padding-left: 1%;
 	flex-basis: 80%;
 	margin-top: 20%;
 	margin-bottom: 15%;
@@ -364,19 +365,19 @@ p {
 }
 #gallery .card1 {
 	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../Photo/1_1Zebra/1_1_2/1_1_2_4.jpg);
+    url(./img/1_1_2_4.jpg);
 	background-position: center;
 	background-size: cover;
 }
 #gallery .card2 {
 	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../Photo/1_2RollarRoman/1_2_7/1_2_7_2.jpg);
+    url(./img/1_2_7_2.jpg);
 	background-position: center;
 	background-size: cover;
 }
 #gallery .card3 {
 	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../Photo/1_3Shangri-la/1_3_2/1_3_2_1.jpg);
+    url(./img/1_3_2_1.jpg);
 	background-position: center;
 	background-size: cover;
 }
@@ -399,12 +400,13 @@ p {
 	background-size: cover;
 }
 #gallery .gallery {
-	max-width: 2500px;
+	max-width: 2000px;
 	margin: 0 auto;
 	padding: 0 ;
 	justify-content: flex-start;
 }
 #gallery h1 {
+	padding-left: 3%;
 	display: block;
 	width: fit-content;
 	font-size: 6rem;
@@ -436,6 +438,9 @@ p {
 	color: white;
 	font-size: 12pt;
 }
+#gallery ul{
+	padding-left:5%;
+}
 #gallery li{
 	color: white;
 	font-size: 12pt;
@@ -445,6 +450,7 @@ p {
 	line-height: 2.5rem;
 	font-weight: 300;
 	letter-spacing: 0.05rem;
+	padding-left: 1%;
 }
 /* End Gallery Section */
 
@@ -529,6 +535,7 @@ p {
 	padding: 100px 0;
 }
 #projects .projects-header h1 {
+	font-size: 26pt;
 	margin-bottom: 50px;
 }
 #projects .all-projects {
@@ -893,10 +900,22 @@ p {
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 
+
+	/* Project h1 font size  align */
+	#projects .projects-header h1 {
+		font-size: 40pt;
+		margin-bottom: 50px;
+	}
+	/* End project h1 font size align */
+
 	/* Gallery for PC version */
 	#gallery {
 		padding-top: 0;
 		padding-bottom: 0;
+	}
+	#gallery h1 {
+		font-size: 6rem;
+		padding-left:50px;
 	}
 	#gallery .gallery{
 		padding: 0 0px;
@@ -908,7 +927,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		margin: 0 auto;
-		width: 90%;
+		width: 72%;
 	}
 	#gallery .col {
 		flex-basis: 50%;
@@ -1008,5 +1027,17 @@ p {
 		margin: 1.5%;
 	}
 	/* End services */
+
+	/* Section title font adjustment for alignment */
+	.section-title {
+		font-size: 4rem;
+		font-weight: 300;
+		color: black;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+		text-align: center;
+	}
+	/* End section title font adjustment for alignment */
 }
 /* End  Media Query For Desktop */
