@@ -987,8 +987,8 @@ p {
 		margin-bottom: 5%;
 	}
 	#gallery .card {
-		width: 100px;
-		height: 130px;
+		width: 140px;
+		height: 170px;
 		display: inline-block;
 		border-radius: 10px;
 		padding: 15px 25px;
@@ -1003,7 +1003,7 @@ p {
 	#gallery h5{
 		padding-top: 5%;
 		max-width: 5px;
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 	/* Eng Gallery for PC version
 
