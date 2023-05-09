@@ -41,7 +41,7 @@ img {
 }
 p {
 	margin-left: 8%;
-	margin-right: 8	%;
+	margin-right: 8%;
 	color: black;
 	font-size: 1.4rem;
 	margin-top: 5px;
@@ -80,7 +80,7 @@ p {
 	background-color: rgb(0, 70, 111);
 }
 .brand{
-	width: 300px;
+	width: 130px;
 }
 
 .brand h1 {
@@ -501,9 +501,9 @@ p {
 	z-index: -1;
 }
 #services .service-bottom .icon {
-	height: 80px;
-	width: 80px;
-	margin-bottom: 20px;
+	height: 50px;
+	width: 50px;
+	margin-bottom: 15px;
 }
 #services .service-item h2 {
 	font-size: 2rem;
@@ -793,14 +793,22 @@ p {
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 
-	
-	
+	#header .nav-bar {
+		padding: 0 4%;
+		padding-right: 200px;
+	}
+	.nav-list{
+		font-size: 0.5px;
+	}
 	.cta {
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 		padding: 10px 30px;
 	}
 	h1.section-title {
-		font-size: 6rem;
+		font-size: 3rem;
+	}
+	.service-top p {
+		font-size: 1rem;
 	}
 
 	/* Hero */
@@ -814,7 +822,7 @@ p {
 	}
 
 	#hero h1 {
-		font-size: 4.5rem;
+		font-size: 3.5rem;
 	}
 	/* End Hero */
 
@@ -879,7 +887,8 @@ p {
 	/* contact  */
 	#contact .contact {
 		flex-direction: column;
-		padding: 0;
+		padding-top: 15%;
+		padding-bottom: 15%;
 		align-items: center;
 		justify-content: center;
 		min-width: 20vh;
@@ -1029,7 +1038,7 @@ p {
 		display: inline-block;
 	}
 	#header .nav-list ul li a {
-		font-size: 1.8rem;
+		font-size: 1.2rem;
 	}
 	#header .nav-list ul a:after {
 		display: none;
@@ -1041,11 +1050,21 @@ p {
 	#services .services {
 		flex-direction: column;
 		text-align: center;
-		max-width: 1500px;
+		max-width: 80%;
 		margin: 0 auto;
 		padding: 100px 0;
 	}
-
+	#services .service-item h2 {
+		font-size: 1.5rem;
+		color: white;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+	#services .service-item p {
+		font-size: 1.2rem;
+		color: white;
+		text-align: left;
+	}
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
