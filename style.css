@@ -530,7 +530,7 @@ p {
 }
 #projects .projects {
 	flex-direction: column;
-	max-width: 1200px;
+	max-width: 700px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
@@ -841,13 +841,21 @@ p {
 		flex-direction: row-reverse;
 	}
 	#projects .project-item {
-		height: 400px;
+		height: 300px;
 		margin: 0;
 		width: 100%;
 		border-radius: 0;
 	}
 	#projects .all-projects .project-info {
 		height: 100%;
+	}
+	#projects .project-info h1 {
+		font-size: 2.5rem;
+		font-weight: 500;
+	}
+	#projects .project-info p {
+		font-size: 1.2rem;
+		color: white;
 	}
 	#projects .all-projects .project-img {
 		height: 100%;
@@ -933,7 +941,7 @@ p {
 
 	/* Project h1 font size  align */
 	#projects .projects-header h1 {
-		font-size: 40pt;
+		font-size: 3rem;
 		margin-bottom: 50px;
 	}
 	/* End project h1 font size align */
