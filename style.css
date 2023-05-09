@@ -796,8 +796,8 @@ p {
 	
 	
 	.cta {
-		font-size: 2.5rem;
-		padding: 20px 60px;
+		font-size: 1.8rem;
+		padding: 10px 30px;
 	}
 	h1.section-title {
 		font-size: 6rem;
@@ -814,7 +814,7 @@ p {
 	}
 
 	#hero h1 {
-		font-size: 7rem;
+		font-size: 4.5rem;
 	}
 	/* End Hero */
 
