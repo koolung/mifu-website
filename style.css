@@ -952,8 +952,11 @@ p {
 		padding-bottom: 0;
 	}
 	#gallery h1 {
-		font-size: 6rem;
+		font-size: 3rem;
 		padding-left:60px;
+	}
+	#gallery li {
+		font-size: 1.3rem;
 	}
 	#gallery .gallery{
 		padding: 0 0px;
@@ -965,6 +968,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		margin: 0 auto;
+		padding-top: 10%;
 		width: 90%;
 	}
 	#gallery .option{
@@ -972,7 +976,7 @@ p {
 	}
 	#gallery .col {
 		flex-basis: 50%;
-		max-width: 1320px;
+		max-width: 1020px;
 		position: initial;
 		display: block;
 		height: auto;
@@ -983,8 +987,8 @@ p {
 		margin-bottom: 5%;
 	}
 	#gallery .card {
-		width: 200px;
-		height: 230px;
+		width: 100px;
+		height: 130px;
 		display: inline-block;
 		border-radius: 10px;
 		padding: 15px 25px;
@@ -998,6 +1002,8 @@ p {
 	}
 	#gallery h5{
 		padding-top: 5%;
+		max-width: 5px;
+		font-size: 1rem;
 	}
 	/* Eng Gallery for PC version
 
