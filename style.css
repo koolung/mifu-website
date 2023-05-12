@@ -787,16 +787,16 @@ p {
 }
 @keyframes slide{
 	0% {
-		background-position: 0px 0, 100vw 0, 200vw 0, 300vw 0
+		background-position: 0.5px 0, 99.5vw 0, 199.5vw 0, 299vw 0
 	  }
 	  16%, 33% {
-		background-position: -100vw 0, 0 0, 100vw 0, 200vw 0
+		background-position: -99.5vw 0, 0 0, 99.5vw 0, 199.5vw 0
 	  }
 	  49%, 66% {
-		background-position: -200vw 0, -100vw 0, 0 0, 100vw 0
+		background-position: -199.5vw 0, -99.5vw 0, 0 0, 99.5vw 0
 	  }
 	  85%, 100% {
-		background-position: -300vw 0, -200vw 0, -100vw 0, 0 0
+		background-position: -299.5vw 0, -199.5vw 0, -99.5vw 0, 0 0
 	  }
 }
 /* End Keyframes */
