@@ -785,6 +785,20 @@ p {
 		color: white;
 	}
 }
+@keyframes slide{
+	0% {
+		background-position: 0px 0, 100vw 0, 200vw 0, 300vw 0
+	  }
+	  16%, 33% {
+		background-position: -100vw 0, 0 0, 100vw 0, 200vw 0
+	  }
+	  49%, 66% {
+		background-position: -200vw 0, -100vw 0, 0 0, 100vw 0
+	  }
+	  85%, 100% {
+		background-position: -300vw 0, -200vw 0, -100vw 0, 0 0
+	  }
+}
 /* End Keyframes */
 
 
@@ -1029,7 +1043,11 @@ p {
 
 	/* Hero background setting */
 	#hero {
-		background-image: url(./img/hero1.jpg);
+		background: url(./img/hero1.jpg) 0 0 no-repeat,
+		url(./img/hero2.jpg) 0 0 no-repeat,
+		url(./img/hero1.jpg) 0 0 no-repeat,
+		url(./img/hero2.jpg) 0 0 no-repeat;
+		animation: slide 15s infinite;
 		background-size: cover;
 		background-position: top center;
 		position: relative;
