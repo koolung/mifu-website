@@ -75,6 +75,17 @@ span{
     align-items: center;
     justify-content: center;
 }
+.measure-input{
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    color: #000 ;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 .drop-down-btn{
     text-align: center;
     width: 328px;
@@ -167,6 +178,7 @@ span{
     color: rgb(0,70,111);
 }
 .buy-now-btn{
+    margin-right: 8px;
     background-color: #000;
     border: 2px solid #000;
 }
