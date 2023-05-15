@@ -88,6 +88,7 @@ span{
     transition: all 0.3s ease;
 }
 .drop-down-btn{
+    margin-right: 7px;
     text-align: center;
     width: 328px;
     border: 2px solid rgba(49, 50, 50, 0.7) ;
@@ -95,7 +96,7 @@ span{
     padding: 1rem;
     border-radius: 3px;
     margin-top:10px;
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     font-size: 16px;
@@ -110,6 +111,11 @@ span{
     background-color: transparent;
     transition: all 0.3s ease;
     color: rgba(49, 50, 50, 0.7);
+}
+.size-down{
+    width:293px;
+    align-items:flex-end;
+    justify-content: center;
 }
 .active{
     border-color: rgb(49, 50, 50)!important;
@@ -281,11 +287,14 @@ span{
 }
 
 @media screen and (max-width: 400px){
-    .btn-groups button{
+    .btn-groups button {
         width: 100%;
         margin-bottom: 10px;
     }
     .measure-input {
         width: 80%;
+    }
+    .drop-down-btn {
+        width: 100%;
     }
 }
