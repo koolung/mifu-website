@@ -76,6 +76,8 @@ span{
     justify-content: center;
 }
 .drop-down-btn{
+    text-align: center;
+    width: 328px;
     border: 2px solid rgba(49, 50, 50, 0.7) ;
     background-color: rgba(49, 50, 50, 0.7);
     padding: 1rem;
@@ -143,6 +145,7 @@ span{
 }
 .btn-groups button{
     display: inline-block;
+    border-radius: 3px;
     font-size: 16px;
     font-family: inherit;
     text-transform: uppercase;

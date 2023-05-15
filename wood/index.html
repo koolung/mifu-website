@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Image Change</title>
+    <link rel = "stylesheet" href="../style.css">
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header -->
+  <section id="header" onload="transparentBg">
+    <div class="noheader container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="../index.html">
+            <img class="logo" src="../img/logo1.png" alt="logo">
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="../index.html" data-after="Home">Home</a></li>
+            <li><a href="../index.html#services" data-after="Service">Services</a></li>
+            <li><a href="../shop.html" data-after="Projects">Pruducts</a></li>
+            <li><a href="../corporate.html" data-after="Corporate">Corporate</a></li>
+            <li><a href="../index.html#contact" data-after="Contact">Contact</a></li>
+            <li><a href="#contact" data-after="Contact">Log In</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+    <div class = "main-wrapper">
+        <div class = "container">
+            <div class = "product-div">
+                <div class = "product-div-left">
+                    <div class = "img-container">
+                        <img src = "images/w1.jpg" alt = "image">
+                    </div>
+                    <div class = "hover-container">
+                        <div><img src = "images/w1.jpg"></div>
+                        <div><img src = "images/w2.jpg"></div>
+                        <div><img src = "images/w3.jpg"></div>
+                        <div><img src = "images/w4.jpg"></div>
+                        <div><img src = "images/w5.jpg"></div>
+                        <div><img src = "images/w6.jpg"></div>
+                        <div><img src = "images/w7.jpg"></div>
+                        <div><img src = "images/w8.jpg"></div>
+                        <div><img src = "images/w9.jpg"></div>
+                        <div><img src = "images/w10.jpg"></div>
+                        <div><img src = "images/w11.jpg"></div>
+                    </div>
+                </div>
+                <div class = "product-div-right">
+                    <span class = "product-name">Classic Light Filtering Zebra Blinds</span>
+                    <span class = "product-price">$ 50.25</span>
+                    <div class = "product-rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star-half-alt"></i></span>
+                        <span>(350 ratings)</span>
+                    </div>
+                    <p class = "product-description">
+                        • Combines a soft shade with the benefits of a horizontal blind<br>
+                        • Custom made  <br>
+                        • Motorized lift option<br>
+                        • 3 color options<br>
+                        • Easy installation  /  All hardware included<br>
+                        • Cord control option means drilling unnecessary</p>
+                    <div class = "btn-groups">
+                        <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i>add to cart</button>
+                        <button type = "button" class = "buy-now-btn"><i class = "fas fa-wallet"></i>buy now</button>
+                            <select name="measurement" class = "drop-down-btn" id="measurement">
+                            <option value="Choose a measurement">Choose a measurement</option>
+                            <option value="22mm">22mm</option>
+                            <option value="27mm">27mm</option>
+                            <option value="28mm">28mm</option>
+                            <option value="33mm">33mm</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../productapp.js"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
