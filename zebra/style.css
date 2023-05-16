@@ -273,6 +273,14 @@ span{
   /** End measurement unit slider **/
 
 @media screen and (max-width: 992px){
+    .btn-groups{
+        padding: 0 10px;
+    }
+    .measure-input{
+        margin-top:10px;
+        max-width: none;
+        width:77%;
+    }
     .product-div{
         grid-template-columns: 100%;
     }
@@ -286,6 +294,9 @@ span{
         max-width: 400px;
         margin-right: auto;
         margin-left: auto;
+    }
+    .size-down{
+        max-width: 328px;
     }
 }
 
