@@ -82,8 +82,8 @@ span{
 }
 .measure-input{
     margin-top:10px;
-    width: 327px;
-    max-width: 327px;
+    width: 263px;
+    max-width: 263px;
     margin-right: 8px;
     display: inline-block;
     border-radius: 3px;
@@ -223,6 +223,7 @@ span{
   }
 
   .toggle .labels {
+    border-radius: 3px;
     position: absolute;
     top: 0;
     left: 0;
