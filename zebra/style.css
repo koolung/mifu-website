@@ -78,6 +78,7 @@ span{
     justify-content: center;
 }
 .measure-input{
+    margin-top:10px;
     max-width: 190px;
     margin-right: 8px;
     display: inline-block;
@@ -273,13 +274,24 @@ span{
   /** End measurement unit slider **/
 
 @media screen and (max-width: 992px){
+    .fitment{
+        max-width: 605px;
+    }
     .btn-groups{
         padding: 0 10px;
     }
-    .measure-input{
-        margin-top:10px;
+    .btn-groups button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .drop-down-btn {
         max-width: none;
-        width:77%;
+        width: 100%;
+    }
+    .measure-input{
+        margin-top: 0;
+        max-width: calc(100% - 80px);
+        width: 100%;
     }
     .product-div{
         grid-template-columns: 100%;
@@ -296,18 +308,17 @@ span{
         margin-left: auto;
     }
     .size-down{
-        max-width: 328px;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 425px){
     .btn-groups button {
         width: 100%;
         margin-bottom: 10px;
     }
     .measure-input {
-        max-width: none;
-        width: 78%;
+        max-width: calc(100% - 80px);
     }
     .drop-down-btn {
         max-width: none;
