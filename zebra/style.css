@@ -17,6 +17,7 @@ span{
 }
 
 .img-container img{
+    justify-content: center;
     width: 700px;
     height: 250px;
     object-fit: cover;
@@ -52,6 +53,7 @@ span{
     padding: 20px;
 }
 .product-div-right{
+    max-width: 665px;
     padding: 20px;
 }
 .img-container img{
@@ -76,6 +78,7 @@ span{
     justify-content: center;
 }
 .measure-input{
+    max-width: 190px;
     margin-right: 8px;
     display: inline-block;
     border-radius: 3px;
@@ -113,7 +116,7 @@ span{
     color: rgba(49, 50, 50, 0.7);
 }
 .size-down{
-    width:293px;
+    max-width:255px;
     align-items:flex-end;
     justify-content: center;
 }
@@ -199,7 +202,7 @@ span{
     display: inline-block;
     border-radius: 3px;
     font-size: 16px;
-    font-style: sans-serif;
+    margin-right:8px;
     text-transform: uppercase;
     --width: 53px;
     --height: 31px;
@@ -292,9 +295,11 @@ span{
         margin-bottom: 10px;
     }
     .measure-input {
-        width: 80%;
+        max-width: none;
+        width: 78%;
     }
     .drop-down-btn {
+        max-width: none;
         width: 100%;
     }
 }
