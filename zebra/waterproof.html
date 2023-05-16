@@ -80,12 +80,19 @@
                         <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i>add to cart</button>
                         <button type = "button" class = "buy-now-btn"><i class = "fas fa-wallet"></i>buy now</button>
                         <div class="fitment">
-                          <input type="number" value="" placeholder="Measurement"  class="measure-input" name="measurement">
+                          <input type="number" value="" placeholder="Enter Width"  class="measure-input" name="measurement">
                           <label class="toggle">
                             <input type="checkbox">
                             <span class="labels" data-on="cm" data-off="inch"></span>
                           </label>
                         </div>
+                        <div class="fitment">
+                            <input type="number" value="" placeholder="Enter Height"  class="measure-input" name="measurement">
+                            <label class="toggle">
+                              <input type="checkbox">
+                              <span class="labels" data-on="cm" data-off="inch"></span>
+                            </label>
+                          </div>
                         <select name="option" class = "drop-down-btn" id="option" onchange="goToNewPage()">
                           <option value="classic.html">Classic Light Filtering</option>
                           <option value="faux.html">Faux Linen Light Filtering</option>
@@ -97,6 +104,11 @@
                           <option value="Inside Mount">Inside Mount</option>
                           <option value="Outside Mount">Outside Mount</option>
                         </select>
+                        <div class="counter">
+                            <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                            <input type="text" value="1">
+                            <span class="up" onClick='increaseCount(event, this)'>+</span>
+                          </div>
                     </div>
                 </div>
             </div>
