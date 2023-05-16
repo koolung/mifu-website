@@ -19,3 +19,16 @@ function resetActiveImg(){
         img.parentElement.classList.remove('active');
     });
 }
+
+function goToNewPage()
+{
+    var url = document.getElementById("option").value;
+    window.location = url;
+}
+
+  /*
+  var url = document.getElementById('option').value;
+  if(url != 'none') {
+      window.location = url;
+  }
+  */
