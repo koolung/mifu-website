@@ -19,3 +19,27 @@ function resetActiveImg(){
         img.parentElement.classList.remove('active');
     });
 }
+
+function goToNewPage()
+{
+    var url = document.getElementById("option").value;
+    window.location = url;
+}
+
+function increaseCount(a, b) {
+    var input = b.previousElementSibling;
+    var value = parseInt(input.value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    input.value = value;
+  }
+  
+  function decreaseCount(a, b) {
+    var input = b.nextElementSibling;
+    var value = parseInt(input.value, 10);
+    if (value > 1) {
+      value = isNaN(value) ? 0 : value;
+      value--;
+      input.value = value;
+    }
+  }
