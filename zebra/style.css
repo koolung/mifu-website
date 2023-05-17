@@ -57,7 +57,8 @@ span{
     padding: 20px;
 }
 .img-container img{
-    width: 200px;
+    width: 450px;
+    height: 350px;
     margin: 0 auto;
 }
 .hover-container{
@@ -349,6 +350,9 @@ span{
 }
 
 @media screen and (max-width: 425px){
+    .img-container img {
+        max-width: 350px;
+    }
     .btn-groups button {
         width: 100%;
     }
