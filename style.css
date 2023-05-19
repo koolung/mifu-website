@@ -400,6 +400,18 @@ p {
 	background-position: center;
 	background-size: cover;
 }
+#gallery .card7 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./img/2_2_1_1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#gallery .card8 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./img/2_3_3_2.jpg);
+	background-position: center;
+	background-size: cover;
+}
 #gallery .gallery {
 	max-width: 2000px;
 	margin: 0 auto;
