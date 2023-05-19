@@ -412,6 +412,36 @@ p {
 	background-position: center;
 	background-size: cover;
 }
+#gallery .card9 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./img/3_5_1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#gallery .card10 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./img/3_4_1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#gallery .card11 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./img/3_2_1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#gallery .card12 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./img/3_3_1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#gallery .card13 {
+	background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./img/3_1_1.jpg);
+	background-position: center;
+	background-size: cover;
+}
 #gallery .gallery {
 	max-width: 2000px;
 	margin: 0 auto;
