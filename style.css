@@ -190,6 +190,11 @@ p {
 	transform: scale(0.8);
 	margin-right: 20px;
 }
+.bag{
+	width: 30px;
+	position: relative;
+	top: 7px;
+}
 
 /*circle animation*/
 /*getting rid of the circle animation
