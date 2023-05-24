@@ -35,3 +35,5 @@
     </div>
   </section>
   <!-- End Header -->
+
+  <script src="./app.js"></script>

@@ -33,5 +33,5 @@
   include("footer.php");
   ?>
   <!-- End Footer -->
-  <script src="./app.js"></script>
+
 
