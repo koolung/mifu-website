@@ -32,6 +32,6 @@
   //include footer.php file
   include("footer.php");
   ?>
-  <!-- End Footer -->
+  <!-- End Footerz -->
 
 
