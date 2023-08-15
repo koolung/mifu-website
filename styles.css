@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#colorOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#colorOptions img {
+margin-top: 10px;
+}
+
+#colorOptions p {
+margin-top: 5px;
+}
+
+html, body{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+span{
+    font-size: 15px
+}
+
+.img-container img{
+    justify-content: center;
+    width: 700px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+.hover-container img{
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    object-fit: cover;
+    display: block;
+}
+.main-wrapper{
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 0 1rem;
+    margin: 0 auto;
+    padding-left: 0;
+}
+.product-div{
+    margin: 1rem 0;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+    border-radius: 3px;
+    column-gap: 10px;
+}
+.product-div-left{
+    padding: 20px;
+    padding-left: 0;
+}
+.product-div-right{
+    margin-top: 50px;
+    max-width: 700px;
+    padding: 20px;
+}
+.img-container img{
+    width: 750px;
+    height: 750px;
+    margin: 0 auto;
+}
+.hover-container{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    max-width: 790px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+.hover-container div{
+    padding: 1rem;
+    border-radius: 3px;
+    margin: 0 4px 8px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hover-container div:first-child {
+    display: block;
+  }
+.fitment{
+    max-width: 400px;
+}
+.measure-input{
+    margin-top:10px;
+    width: 263px;
+    max-width: 263px;
+    margin-right: 8px;
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    color: #000 ;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.measure-input:hover{
+    background-color:rgb(228, 228, 228);
+    transition: all 1s ease;
+}
+.measurement-input {
+    display: flex;
+    width: 100%;
+    max-width: 328px;
+}
+.caption{
+    margin-top:10px;
+    width: 328px;
+    max-width: 263px;
+    margin-right: 8px;
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    color: #000 ;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.caption:hover{
+    background-color:rgb(228, 228, 228);
+    transition: all 1s ease;
+}
+.option-images{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;  
+}
+.assistImageDiv image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+}
+.assistImageDiv img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+image#colorImage{
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+}
+.dropdown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.assistImageDiv {
+    width: 200px;
+    height: 100% !important;
+}
+.drop-down-btn{
+    margin-right: 7px;
+    text-align: start;
+    width: 328px;
+    border: none;
+    background-color: transparent;
+    padding: 1rem;
+    border-radius: 3px;
+    margin-top:10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    color: #000000;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.drop-down-btn:hover{
+    border: 2px rgba(49, 50, 50, 0.7);
+    transition: all 1s ease;
+    background-color:rgb(228, 228, 228);
+}
+.size-down{
+    max-width:328px;
+    align-items:flex-end;
+    justify-content: center;
+}
+select[disabled] {
+    display: none;
+  }
+  
+  
+.drop-down-container select{
+    margin-right: 7px;
+    text-align: center;
+    width: 328px;
+    border: none ;
+    padding: 1rem;
+    border-radius: 3px;
+    margin-top:10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    color: #000000;
+    cursor: pointer;
+  }
+.drop-down-container select:hover{
+transition: all 1s ease;
+background-color:rgb(228, 228, 228);
+}
+
+.active{
+    border-color: rgb(49, 50, 50)!important;
+}
+.hover-container div:hover{
+    border-color: rgb(49, 50, 50);
+}
+.hover-container div img{
+    width: 50px;
+    cursor: pointer;
+}
+.product-div-right span{
+    display: block;
+    text-align: left;
+}
+.product-name{
+    text-transform: uppercase;
+    font-size: 26px;
+    margin-bottom: 22px;
+    font-weight: 300;
+    letter-spacing: 0.01rem;
+    opacity: 0.9;
+    text-align: left;
+}
+.product-price{
+    font-weight: 200;
+    font-size: 24px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+.product-rating{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+.product-rating span{
+    margin-right: 6px;
+}
+.product-description{
+    font-weight: 18px;
+    line-height: 1.6;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-top: 22px;
+}
+.btn-groups{
+    margin-top: 22px;
+}
+.btn-groups button{
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.btn-groups button .fas{
+    margin-right: 8px;
+}
+.add-cart-btn{
+    width: 328px;
+    margin-top:10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-right: 8px;
+    color: rgb(0,70,111) !important;
+}
+.add-cart-btn:hover{
+    background-color: rgba(0,70,111);
+    color: white !important;
+}
+.buy-now-btn{
+    margin-top:10px;
+    margin-right: 8px;
+    background-color: rgb(49, 50, 50);
+    border: 2px solid rgb(49, 50, 50);
+}
+.buy-now-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/** Measurement unit slider **/
+.toggle {
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-right:8px;
+    text-transform: uppercase;
+    --width: 53px;
+    --height: 31px;
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    cursor: pointer;
+  }
+
+  .toggle input {
+    display:none;
+  }
+
+  .toggle .labels {
+    line-height: 1.6;
+    font-weight: 300;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    font-family: inherit;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+  }
+
+  .toggle .labels::after {
+    content: attr(data-off);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: black;
+    background-color: transparent;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle .labels::before {
+    content: attr(data-on);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: calc(var(--width) * -1);
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    background-color: rgb(0,70,111);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle input:checked~.labels::after {
+    transform: translateX(var(--width));
+  }
+
+  .toggle input:checked~.labels::before {
+    transform: translateX(var(--width));
+  }
+
+/** End measurement unit slider **/
+/** Quantity Counter **/
+.counter {
+border-radius: 5px;
+width: 120px;
+margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.counter input {
+    border: 0px;
+    width: 40px;
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+    color: black;
+    opacity: 0.9;
+    transition: transform 0.3s;
+  }
+.counter input.slide-up {
+transform: translateY(-10px);
+}
+
+.counter input.slide-down {
+transform: translateY(10px);
+}
+  
+.counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: black;
+    user-select: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.counter span.up:hover{
+    opacity: 0.3;
+}
+
+.counter span.down:hover{
+    opacity: 0.3;
+}
+/** End Quantity Counter **/
+
+/* blind image carousel */
+.img-container {
+    overflow: hidden;
+    width: 750px;
+    height: 750px;
+    border-radius: 5px;
+  }
+  
+  .blind-carousel {
+    display: flex;
+    transition: transform 4s ease-in-out;
+  }
+  
+  .blind-carousel img {
+    width: 750px;
+    height: 750px;
+    object-fit: cover;
+  }
+  
+  .hover-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -70px; /* Adjust the margin-top value as per your preference */
+    margin-bottom: 37px;
+    z-index: 99; /* Ensure the hover container appears above the carousel */
+    position: relative ;
+  }
+
+  .hover-container div {
+    margin: 0;
+  }
+
+  .hover-container input[type="radio"] {
+    display: none;
+  }
+
+  .hover-container label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #fdfdfd;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .hover-container label:hover {
+    border: #000 2px bold;
+  }
+
+  .hover-container input[type="radio"]:checked + label {
+    background-color: #696969;
+  }
+  
+/* end blind image carousel */
+
+
+
+
+
+.curtainPleatImg {
+	width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#pleatDetails {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s;
+  }
+  #liningDetails {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s;
+  }
+
+  /* blind colour option */
+  .image-description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+  .mount-image-description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+  
+  
+  .slide-down {
+    max-height: 500px; /* Adjust the value to the maximum height of the image description */
+  }
+  
+  /* End blind colour option */
+
+
+  /* blind mount option */
+  .mount-assistImageDiv {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.3s ease;
+  }
+
+  .mount-assistImageDiv.active {
+    max-height: 300px; /* Adjust the height as per your requirements */
+    max-width: 400px; /* Adjust the width as per your requirements */
+  }
+  /* End blind mount option */
+    
+
+  /* blind roll option slide down */ 
+  .slide-down-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.3s ease; /* Adjust the duration as needed */
+  }
+  
+  /* Set max-height to a large enough value to accommodate the content */
+  .slide-down-container.expanded {
+    max-height: 200px; /* Adjust the value based on the content's height */
+  }
+  
+  
+  /* End blind roll option slide down */ 
+
+
+
+@media screen and (max-width: 992px){
+    .fitment{
+        margin-top: 10px;
+        max-width: 605px;
+    }
+    .btn-groups{
+        padding: 0 0px;
+    }
+    .btn-groups button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .drop-down-btn {
+        max-width: none;
+        width: 100%;
+    }
+    .measure-input{
+        margin-top: 0;
+        max-width: calc(100% - 80px);
+        width: 73vw;
+    }
+    .product-div{
+        grid-template-columns: 100%;
+    }
+    .product-div-right{
+        text-align: center;
+    }
+    .product-rating{
+        justify-content: center;
+    }
+    .product-description{
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: left;
+    }
+    .size-down{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    
+    .blind-img-container{
+        display: none;
+    }
+    .container{
+        padding-right: 0;
+    }
+    .product-div{
+        padding: 0;
+    }
+    .product-div-left{
+        padding: 0;
+    }
+    .img-container{
+        width: 100vw;
+        height: 375px;
+        object-fit: cover;
+    }
+    .img-container img {
+        width: 100%;
+        max-width: 425px;
+        height: 100%;
+    }
+    .btn-groups{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    .btn-groups button {
+        width: 100%;
+    }
+    .measure-input {
+        max-width: calc(100vw - 80px);
+    }
+    .drop-down-btn {
+        max-width: none;
+        width: 100%;
+    }
+    .measurement-input {
+        max-width: 385px;
+    }
+}

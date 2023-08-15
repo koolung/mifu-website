@@ -6,7 +6,7 @@
       </div>
       <div class="contact-items">
         <div class="contact-item">
-          <div class="icon"><a href="tel:+1 902 9890740"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></a></div>
+          <div class="icon"><a href="tel:+1 902 9890740"><img src="img/phone.png" /></a></div>
           <div class="contact-info">
             <a href="tel:+1 902 9890740">
             <h1>Phone</h1>
@@ -15,7 +15,7 @@
           </div>
         </div>
         <div class="contact-item">
-          <div class="icon"><a href="mailto:mifudecor@gmail.com"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></a></div>
+          <div class="icon"><a href="mailto:mifudecor@gmail.com"><img src="img/email.png" /></a></div>
           <div class="contact-info">
             <a href="mailto:mifudecor@gmail.com">
             <h1>Email</h1>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="icon"><img src="img/location.png" /></div>
           <div class="contact-info">
             <h1>Address</h1>
             <h2>201 Brookline Plaza, Bedford, NS B4B 2E6</h2>
